@@ -1,0 +1,19 @@
+@import "/src/style-mixins/fonts";
+@import "/src/style-mixins/colors";
+.display{
+  @include font(1em);
+  margin-bottom: 8px;
+  margin-top: 8px;
+
+  .currencyTitle{
+    padding: 2px;
+    border-radius: 5px 0 0 5px;
+    background-color: $color-text;
+    color: $color-text-negative;
+  }
+  .currencyValue{
+    background-color: $color-text-negative;
+    padding: 2px;
+    border-radius: 0 5px 5px 0;
+  }
+}

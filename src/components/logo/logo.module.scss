@@ -1,0 +1,8 @@
+@import "src/style-mixins/fonts";
+@import "src/style-mixins/colors";
+.logo{
+  h1{
+    @include font();
+    color: $color-text;
+  }
+}

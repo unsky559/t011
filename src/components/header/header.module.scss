@@ -1,0 +1,11 @@
+@import "src/style-mixins/colors";
+.header{
+  padding: 10px 20px;
+  background-color: $color-main;
+}
+
+.headerSpacing{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
